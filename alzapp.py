@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import numpy as np
 from pycaret.classification import load_model,predict_model
 rf_model = load_model('alz_model')
 
