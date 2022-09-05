@@ -17,7 +17,7 @@ st.title("Alzheimer's Disease Prediction System")
 tx = """"This prediction app is created based on the Alzheimer's disease dataset
 https://www.kaggle.com/datasets/brsdincer/alzheimer-features
 
-The ML model used for the prediction is Gradient Boosting Classifier"""
+The ML model used for the prediction is Catboost Classifier"""
 st.sidebar.info(tx)
 gender = st.radio("Gender of the person",('M','F'))
 age = st.number_input("Age of the person",60,100,step=1)
