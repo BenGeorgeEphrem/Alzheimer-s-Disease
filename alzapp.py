@@ -36,7 +36,7 @@ dic = {'M/F':gender, 'Age':age, 'MMSE':mmse, 'CDR':cdr,
 df = pd.DataFrame([dic])
 if st.button('Predict'):
   res = predict_model(rf_model,df)
-  if res['Label'][0] == 'Demented':
+  if res['prediction_label'][0] == 'Demented':
     st.write('Demented')
     st.image('demented.jpg')
   else:
