@@ -2,3 +2,6 @@ joblib==1.2.0
 pandas==1.5.3
 pycaret==3.0.2
 streamlit==1.22.0
+pickleshare==0.7.5
+cloudpickle==2.2.1
+jsonpickle==3.0.1
